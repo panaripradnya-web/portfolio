@@ -1,7 +1,3 @@
-
-readme code
-
-
 # 💼 Pradnya Panari -  Portfolio Webpage
 
 Welcome to the official developer portfolio of **PradnyaTech**, built using HTML, CSS. This single-page responsive site showcases my skills, projects, contact form.
@@ -29,7 +25,7 @@ Welcome to the official developer portfolio of **PradnyaTech**, built using HTML
 
 ## 🖥️ Live Demo
 
-[![Live](https://img.shields.io/badge/Live-Demo-green?style=for-the-badge&logo=vercel)]()
+[![Live](https://img.shields.io/badge/Live-Demo-green?style=for-the-badge&logo=vercel)](https://panaripradnya-web.github.io/portfolio/)
 
 
 ---
