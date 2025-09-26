@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+body{
+    background-color: rgb(236, 247, 247);
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+.contact-box{
+  width: 500px;
+  background-color: #efe7e7;
+  box-shadow: 0 0 20px 0 #bf9898;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position:absolute;
+}
+form{
+  margin: 35px;
+}
+.contact-input{
+  width: 400px;
+  height: 40px;
+  margin-top: 20px;
+  padding-left: 10px;
+  border: 2px solid #c89e9e;
+  padding-right: 10px;
+  border-radius: 15px;
+  outline: none;
+  transition: 0.8s ease-in-out;
+}
+.contact-input:hover{
+  background-color: rgb(229, 209, 211);
+}
+.textarea-field{
+  height: 150px;
+  padding-top: 10px;
+}
+button{
+  border: radius 20px;
+  color: #fff;
+  margin-top: 18px;
+  padding: 10px;
+  background-color: #18b22f;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+  width: 80px;
+  transition: 0.5s ease-in-out;
+}
+button:hover{
+  background-color: green;
+}
+h1{
+  text-align: center;
+  padding-top: 50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+  
+  font-style: normal;
+  animation: head linear infinite;
+  animation-duration: 2s ;
+}
+@keyframes head
+{
+  0%,20%{
+    color: red;
+  }
+  20%,40%{
+    color: green;
+  }
+  40%,60%{
+    color: yellow;
+  }
+  60%,80%{
+    color: aqua;
+  }
+  80%,100%{
+    color: chartreuse;
+  }
+}
+@media only screen and (max-width:750px){
+    h1{
+      font-size: 30px;
+    }
+    .contact-box{
+      width: 380px;
+    }
+    .contact-input{
+      width: 300px;
+    }
+}
+
+
+
+
+    
+
+
+
+    

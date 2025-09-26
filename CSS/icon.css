@@ -1,0 +1,15 @@
+.message-icon{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 28px;
+    line-height: 60px;
+    
+
+}
